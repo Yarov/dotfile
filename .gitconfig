@@ -1,7 +1,11 @@
+[user]
+	name = Yarov Rivera
+	email = yarovrr@gmail.com
 [alias]
 	c = commit -am
 	up = pull
 	p = push
+	co  = checkout
 	s = status -s
 	df = diff --color --color-words --abbrev
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
@@ -25,10 +29,8 @@
 	untracked = cyan
 [merge]
 	log = true
-
-[user]
-	name = Yarov Rivera
-	email = yarovrr@gmail.com
+[push]
+  default = simple
 	
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
