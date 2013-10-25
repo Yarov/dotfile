@@ -1,0 +1,10 @@
+# navegacion de carpetas
+alias ..="cd .."
+alias cd..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias ~="cd ~" # `cd` is probably faster to type though
+
+
+# alias python y virtualen
+alias pir="pip install -r"
