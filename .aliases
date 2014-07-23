@@ -6,14 +6,22 @@ alias ....="cd ../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 
 
+# alias python y virtualen
+alias pir="pip install -r"
+alias prs="python manage.py runserver"
+
+#SSH
+alias pixline="ssh root@107.170.31.63"
 
 
 #git 
 alias g="git"
+alias gc="git clone"
 
-# alias python y virtualen
-alias pir="pip install -r"
-
-
-# grunt 
+# servicios de grunt 
 alias gs="grunt server"
+
+
+#sublime 
+alias sb="sublime "
+
